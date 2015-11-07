@@ -3,8 +3,9 @@ var app = angular.module("miApp",[]);
 app.controller("MiControlador2",function($scope){
     $scope.var1=0;
     $scope.var2=0;
+    $scope.var3="";
     $scope.resultado = function(){
-        return Number($scope.var1)+Number($scope.var2);
+        var prom = $http.get("data.js");
     }
 });
 

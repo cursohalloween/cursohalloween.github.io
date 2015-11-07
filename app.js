@@ -1,6 +1,6 @@
 var app = angular.module("miApp",[]);
 
-app.controller("MiControlador2",function($scope){
+app.controller("MiControlador2",function($scope,$http){
     $scope.var1=0;
     $scope.var2=0;
     $scope.var3="";

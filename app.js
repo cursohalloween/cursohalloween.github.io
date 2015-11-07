@@ -5,7 +5,7 @@ app.controller("MiControlador2",function($scope,$http){
     $scope.var2=0;
     $scope.var3="";
     $scope.resultado = function(){
-        var prom = $http.get("data.js");
+        var prom = $http.toString();
     }
 });
 
